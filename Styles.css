@@ -1,0 +1,38 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 10px;
+  background-color: oldlace;
+  padding: 10px;
+  margin: 20px;
+}
+.grid-item-1 {
+  background-color: turquoise;
+  border: 1px solid black;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  grid-column-start: 1 ;
+  grid-column-end: 2 ;
+
+}
+.grid-item-2 {
+  background-color: turquoise;
+  border: 1px solid black;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  grid-column-start: 3 ;
+  grid-column-end: 4 ;
+
+}
+.grid-item-3 {
+  background-color: turquoise;
+  border: 1px solid black;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  grid-column-start: 5 ;
+  grid-column-end: 6 ;
+
+}
