@@ -1,15 +1,24 @@
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto;
-  background-color: black;
-  padding: 10px;
+  grid-template-rows: auto;
+  margin-left: 10%;
+  margin-right: 7%;
+
 }
 .grid-item {
-  background-color: white;
-  border: 10px solid red;
-  font-size: 30px;
+  background-color: black;
+  width: 90%;
+  height: 90%;
   text-align: center;
+  padding-top: 30px;
+  border:
+
 }
 img {
-  width: 10px;
+  width:inherit;
+  height: inherit;
+}
+.title {
+  text-align: center;
 }
