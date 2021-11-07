@@ -1,61 +1,35 @@
-.grid-container {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  padding-left: 4%;
-  padding-right: 8%;
-  padding-top: 4%;
-  padding-bottom: 10%;
-  border: inset;
-  border-radius: 5px;
-  border-width: 80px 40px 0px 0px ;
-  border-top-color: gray;
-  border-right-color: gray;
-  background-color: gray;
-  grid-row-gap: 3%;
-  grid-column-gap: 9%;
-  margin-left: 10%;
-  margin-right: 7%;
-  margin-top:7%;
-  transform: scale(.9);
-  transform: translate(0px,10%);
-}
-img {
-  width:inherit;
-  height: inherit;
-  transform: translate(2%,0px);
-  border-radius: 50px;
-  padding: 3%;
-  transform: rotate();
-}
 body {
   /*background-image: radial-gradient(red,purple,blue);*/
-  border: inset;
-  border-width: 200px 200px 300px 200px ;
-  border-right-color: sienna;
-  border-left-color: green;
-  border-bottom-color: yellow;
-  border-top-color: red;
+  border: inset; /*Provides depth*/
+  border-width: 200px 200px 400px 200px ; /* Can not be specified in % */
+  border-right-color: #B5179E;
+  border-left-color: #3F37C9;
+  border-bottom-color: #7209B7;
+  border-top-color: #F72585;
+  background-color: #4CC9F0;
 }
-.grid-item1 {
-  background-color:black;
-  width: 90%;
-  border: inset;
-  border-width: 0px 0px 40px 40px;
-  border-radius: 10px;
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto; /*Sets three automatically organized columns*/
+  border: inset; /*Provides depth*/
+  border-radius: 5px; /*Softens look of shelf*/
+  border-width: 80px 40px 0px 0px ; /* Can not be specified in % */
+  border-top-color: gray;
+  border-right-color: gray;
+  background-color: #F8F9FA;
+  margin-left: 10%; /*Sets shelf in middle of room*/
+  margin-right: 10%; /*Sets shelf in middle of room*/
+  margin-top: 1%; /*Sets shelf in middle of room*/
+  transform: translate(0px,10%); /*Moves shelf on to the floor*/
 }
-.grid-item2 {
-  background-color:black;
-  width: 90%;
-  text-align: center;
-  border: inset;
-  border-width: 0px 0px 40px 40px;
-  border-radius: 10px;
+.grid-item {
+    width: 85%;
+    margin: 7%;
+    transform: scale(.9); /* Makes boxes the right size to scale */
+  }
+img {
+  width:100%;
+  height:100%;
+  border-radius: 25px;
 }
-.grid-item3 {
-  background-color:black;
-  width: 90%;
-  text-align: center;
-  border: inset;
-  border-width: 0px 0px 40px 40px;
-  border-radius: 10px;
-}
+/* command slash to make a comment */
