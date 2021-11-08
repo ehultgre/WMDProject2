@@ -1,0 +1,36 @@
+body {
+  /*background-image: radial-gradient(red,purple,blue);*/
+  border: inset; /*Provides depth*/
+  border-width: 200px 200px 400px 200px ; /* Can not be specified in % */
+  border-right-color: #ADB5BD;
+  border-left-color: #ADB5BD;
+  border-bottom-color: #5C6670;
+  border-top-color: #CED4DA;
+  background-color: #090A0B;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto; /*Sets three automatically organized columns*/
+  border: inset; /*Provides depth*/
+  border-radius: 5px; /*Softens look of shelf*/
+  border-width: 80px 50px 0px 0px ; /* Can not be specified in % */
+  border-top-color: #E9ECEF;
+  border-right-color: #212529;
+  background-color: #F8F9FA;
+  margin-left: 10%; /*Sets shelf in middle of room*/
+  margin-right: 10%; /*Sets shelf in middle of room*/
+  margin-top: 1%; /*Sets shelf in middle of room*/
+  transform: translate(0px,10%); /*Moves shelf on to the floor*/
+}
+.grid-item {
+    width: 85%;
+    margin: 7%;
+    transform: scale(.9); /* Makes boxes the right size to scale */
+  }
+img {
+  width:100%;
+  height:100%;
+  border-radius: 25px;
+  border: inset;
+}
+/* command slash to make a comment */
